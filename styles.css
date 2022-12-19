@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background:url('https://www.cambridge.org/elt/blog/wp-content/uploads/2019/02/background-3268840_1920-1024x728.jpg.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    padding: 100px;
+    
+}
+
+.header {
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    padding: 200px;
+    position: fixed;
+    align-items: center;
+    height: 100vh;
+    justify-content: left;
+    
+
+}
+
+.weather {
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+    align-items: center;
+    justify-content: left;
+    right: 400px;
+    bottom: 420px;
+
+}
+
+.weather-page {
+    text-align: center;
+    position:fixed;
+    background: gray;
+    border-radius: 20px;
+    border: 2px;
+    border-color: azure;
+    font-size: small;
+    width: 150px;
+    border: 10px;
+
+
+}
+button {
+    width: 150px;
+}
+
+
